@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freely Grow - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="clock" id="digitalClock"></div>
+
+    <header>
+        <div id="glowingBox" style="
+            position: fixed;
+            top: -18px;
+            left: 1px;
+            width: 21px;  
+            height: 3px;  
+            background: #0c0c0c;
+            border-radius: 50px;
+            box-shadow: 8 1 1px rgb(67, 207, 207), 0 0 20px #04f4f4;
+            z-index: 100;
+        "></div>
+
+   <div id="socialIcons" style="
+   position: fixed;
+   top: 5px;
+   right: 50px;
+   display: flex;
+   gap: 20px;
+">
+<a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></a>
+<a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube" style="color: #FF0000;"></i></a>
+<a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></a>
+<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter" style="color: #1DA1F2;"></i></a>
+<a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0077B5;"></i></a>
+<a href="https://wa.me" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i></a>
+</div>
+
+
+        <h1>   Welcome </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Refresh</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Shoping.html">Shoping</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Earn Money Free.html">Earn Money Free</a></li>
+        </ul>
+    </nav>
+
+    <main style="margin-top: 3px;">
+        <section>
+            <h2>Explore the Digital World</h2>
+            <p>Your platform to grow digitally with dynamic content and engaging experiences.</p>
+        </section>
+        <div id="glowingBox" style="
+            width: 600px;  
+            height: auto;  
+            background: #000;
+            border-radius: 50px;
+            box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+            padding: 20px;
+            color: #0ff;
+            text-align: left;
+            margin: 20px auto;
+        ">
+            <div id="date" style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">
+                Date
+            </div>
+            <div style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">
+                Instagram Views Tricks 2025
+            </div>
+            <ul style="list-style: none; padding: 0; font-size: 1.2em; color: #00bfff;">
+                <li><b>1. Upload One Video Daily ..</b></li>
+                <li><b>2. Add Attractive Titles ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+                <li><b>3. Add Keywords and Hashtags ..</b></li>
+
+            </ul>
+        </div>
+    </main>
+
+    <footer><footer style="background: #000; color: #fff; padding: 20px; text-align: center;">
+    
+        <div id="footerIcons" style="margin-top: 0px; display: flex; justify-content: center; gap: 40px;">
+            <a href="https://instagram.com" target="_blank" style="color: #E4405F;"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" style="color: #FF0000;"><i class="fab fa-youtube"></i></a>
+            <a href="https://facebook.com" target="_blank" style="color: #1877F2;"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" style="color: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank" style="color: #0A66C2;"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me" target="_blank" style="color: #25D366;"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    
+        <p>&copy; 2025 Freely Grow. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        function updateDate() {
+            const dateElement = document.getElementById('date');
+            const currentDate = new Date().toLocaleDateString('en-US', {
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+            });
+            dateElement.textContent = currentDate;
+        }
+        
+        updateDate();
+    </script>
+</body>
+</html>
